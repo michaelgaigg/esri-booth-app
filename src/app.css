@@ -1,5 +1,12 @@
 @import "@esri/calcite-components/dist/calcite/calcite.css";
+@import "tailwindcss";
 
 :root {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
