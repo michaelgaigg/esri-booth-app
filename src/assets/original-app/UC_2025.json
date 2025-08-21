@@ -1,0 +1,299 @@
+{
+	"demos": [{
+			"section": "top links",
+			"data": [
+				["Esri Homepage", "https://www.esri.com/en-us/home", "No"],
+				["AEC AGOL", "https://arcaec.maps.arcgis.com/home/", "No"],
+				["IVT AGOL", "https://ivt.maps.arcgis.com/home/", "No"],
+				["Imagery Portal", "https://remotesensing.imagery.esri.com/portal/home/", "No"],
+				["Imagery Workflows", "https://doc.arcgis.com/en/imagery/workflows/", "No"],
+				["Living Atlas", "https://livingatlas.arcgis.com/en/home/", "No"],
+				["Application Prototype Lab", "https://apl.esri.com/portal/WebApps/index.html", "No"],
+				["AEC Guide to UC2023", "https://storymaps.arcgis.com/stories/899e2fc3086f4f3288bf5274915648ca", "No"],
+				["Basemaps & Living Atlas", "https://storymaps.arcgis.com/stories/40af36ac225742309fd9b5e2213cde5a", "Yes"],
+				["ArcGIS GeoBIM", "https://go.esri.com/geobim-au23", "Yes"],
+				["Drone Mapping", "https://go.esri.com/dronemapping-au23", "No"],
+				["ArcGIS Indoors", "https://go.esri.com/indoor-gis-au23", "No"],
+				["StoryMap Collection: ArcGIS GeoBIM", "https://storymaps.arcgis.com/collections/ec2b18bfdc3a413f9a383d4eb0c1e948", "No"],
+				["Explore ArcGIS GeoBIM", "https://storymaps.arcgis.com/collections/8551492960724d38bc3076e830ced5db", "No"],
+				["Focus for AEC & Environmental Consulting", "https://storymaps.arcgis.com/stories/dffc3408afca46ebbd64ebbc85b5085c", "No"],
+				["GIS for Construction", "https://storymaps.arcgis.com/stories/841032ad04624a44a426aaf24677007b", "No"],
+				["ISO 19650 Standards in ArcGIS", "https://storymaps.arcgis.com/stories/f973462663af453a92b14ff107621a4b", "No"],
+				["ArcGIS Tools for BIM", "https://aec-demo-hub-greenshoots.hub.arcgis.com/apps/efc03f5cda964567ae512e9522d2f11a/explore", "No"],
+				["Field Operations", "https://storymaps.arcgis.com/stories/066406cdcf824fc69292c39b43be3961", "No"],
+				["ArcGIS for AutoCAD", "https://storymaps.arcgis.com/stories/913b898ac0ab4a2d918580f4c19ff7c8", "No"],
+				["Esri and Autodesk GIS and BIM Integration", "https://mediaspace.esri.com/playlist/dedicated/1_r5i77fbp/1_yfytik5d", "Yes"],
+				["Esri AEC Partners", "https://www.esri.com/en-us/about/partners/find-partner/search?industry=Architecture", "No"]
+				
+			]
+		},
+		{
+			"section": "videos",
+			"data": [
+				["GIS & BIM Integration from Portcoast", "content/vids/Portcoast_BIMGIS.mp4", "184", "Yes"],
+				["Infrastructure with Pixel Streaming", "content/vids/PixelStreaming_BIM_Unreal.mp4", "63", "Yes"],
+				["AirFlow Analyst - Wind Corridor Analysis", "content/vids/AirflowAnalyst_WindSimulation.mp4", "12", "Yes"],
+				["Zurich Flood Diversion Project", "content/vids/Zurich_FloodDiversion_Demo.mp4", "60", "Yes"],
+				["Tree Root Growth Management", "content/vids/SceneViewer_Tree_Root_Growth.mp4", "38", "Yes"],
+				["Site Scan - Cut/Fill Volumetric Analysis", "content/vids/SiteScan_Volumetric_CutFill.mp4", "54", "Yes"],
+				["ArcGIS GeoBIM", "content/vids/geobim.mp4", "394", "No"],
+				["Sea Level Simulation", "content/vids/SealLevelQuarry.mp4", "32", "Yes"],
+				["Flooding Simulation", "content/vids/Flood_WongTaiSIn.mp4", "19", "Yes"],
+				["Autodesk Civil 3D Surfaces", "content/vids/Civil3D_Surfaces_Pro_3_2.mp4", "64", "Yes"],
+				["ArcGIS GeoBIM and Field Maps Integration", "content/vids/GeoBIM_FieldMaps.mp4", "51", "Yes"],
+				["ArcGIS Pro Shorts - BIM Cloud Connection", "content/vids/ArcGIS Pro Shorts - BIM Cloud Connection.mp4", "60", "Yes"],
+				["ArcGIS Pro Shorts - BIM Reinforcing Elements", "content/vids/ArcGIS Pro Shorts - BIM Reinforcing Elements.mp4", "60", "Yes"],
+				["Drone Flight to Oriented Imagery App", "content/vids/OrientedImagery_WaterTower.mp4", "150", "Yes"],
+				["Smart Site Management System", "content/vids/SSMS_EsriHKDashboard.mp4", "79", "Yes"],
+				["Site Scan for ArcGIS - Flight App", "content/vids/SiteScanFlightAppDemoVideo.mp4", "119", "Yes"],
+				["Site Scan for ArcGIS - Web App", "content/vids/SiteScanDashboardDemoVideo.mp4", "53", "Yes"],
+				["Site Scan for Construction", "content/vids/SiteScan_DemoHR.mp4", "180", "Yes"],
+				["ArcGIS Reality", "content/vids/ArcGISRealityTour.mov", "180", "Yes"],
+				["Construction Site Mapping System", "content/vids/PCL_Construction_Site_Mapping_System.mp4", "91", "Yes"],
+				["ArcGIS Pro Shorts - Civil 3D Corridor to Multipatch", "content/vids/ArcGIS Pro Shorts - Civil 3D Corridor to Multipatch.mp4", "60", "Yes"],
+				["ArcGIS Pro Shorts - Civil 3D Surface to Raster", "content/vids/ArcGIS Pro Shorts - Civil 3D Surface to Raster.mp4", "60", "Yes"],
+				["Construction Site Safety on Mobile", "content/vids/Construction_Site_Safety_Mobile_Ops.mp4", "98", "Yes"],
+				["Create apps with built-in Gantt Charts", "content/vids/GanttWidget_Schedule.mp4", "10", "Yes"],
+				["ArcGIS Indoors map creation", "content/vids/IndoorFieldMapsDEMO.mp4", "160", "Yes"],
+				["ArcGIS Indoors with Dashboards", "content/vids/FloorAwareFieldMapsDashboard.mp4", "129", "Yes"],
+				["ArcGIS Pro Shorts - Coordinate Systems - CAD", "content/vids/ArcGIS Pro Shorts - Coordinate Systems - CAD.mp4", "60", "Yes"],
+				["ArcGIS Pro Shorts - Direct Publishing of CAD", "content/vids/ArcGIS Pro Shorts - Direct Publishing of CAD.mp4", "60", "Yes"],
+				["ArcGIS Maps SDK for Games Engines - CIMIC", "content/vids/CIMIC_ConstructionAPI.mp4", "87", "Yes"],
+				["CERN - Digital Twin", "content/vids/CERN_HadronCOllider.mp4", "72", "Yes"],
+				["Gothenburg - Digital Twin", "content/vids/DIgitalTwin_Gothenburg.mp4", "65", "Yes"],
+				["Oracle P6 Project Schedule Integration", "content/vids/P6_Oracle_Integrate_Project_Schedules.mp4", "56", "Yes"],
+				["AEC Project Delivery", "content/vids/StoryMapConstructionBuildingE_SPS.mp4", "67", "Yes"],
+				["ArcGIS Pro Shorts - Directly Create Scene Layers from 3D CAD", "content/vids/ArcGIS Pro Shorts - Directly Create Scene Layers from 3D CAD.mp4", "60", "Yes"],
+				["ArcGIS Pro Shorts - Export to CAD", "content/vids/ArcGIS Pro Shorts - Export to CAD.mp4", "60", "Yes"],
+				["Field Operations", "content/vids/ArcGIS_FieldOps.mp4", "240", "Yes"],	
+				["AEC Project Delivery Subscription", "content/vids/PDS_1minute.mp4", "58", "Yes"],
+				["GIS and BIM", "content/vids/gis_bim.mp4", "201", "Yes"],
+				["Using ML for Construction Tracking", "content/vids/Solar_ML.mp4", "61", "Yes"],
+				["3D Visualization and Analysis", "content/vids/Munich_DevSummit_2022.mp4", "97", "Yes"],
+				["ArcGIS Pro Shorts - IFC to Multipatch", "content/vids/ArcGIS Pro Shorts - IFC to Multipatch.mp4", "60", "Yes"],
+				["ArcGIS Pro Shorts - Location Information from Revit", "content/vids/ArcGIS Pro Shorts - Location Information from Revit.mp4", "60", "Yes"],
+				["VR and ArcGIS Maps SDK for Unity", "content/vids/VR_UnityGameEngine.mp4", "67", "Yes"],
+				["ArcGIS Velocity NYC Bus Monitor", "content/vids/Velocity_Bus_Monitor.mp4", "58", "Yes"],
+				["ArcGIS Urban in VR", "content/vids/ArcGIS_Urban_in_XR_Experience_Demo_2022.mp4", "81", "Yes"],
+				["ArcGIS Urban with CityEngine", "content/vids/Urban_Planning_Video1.mp4", "182","Yes"],
+				["ArcGIS Urban Scenario Comparison", "content/vids/Urban_Planning_Video2.mp4", "74","Yes"],
+				["ArcGIS Pro Shorts - Prepare CAD Floorplans for Indoor GIS", "content/vids/ArcGIS Pro Shorts - Prepare CAD Floorplans for Indoor GIS.mp4", "60", "Yes"],
+				["ArcGIS Pro Shorts - Revit Toposolid to Multipatch", "content/vids/ArcGIS Pro Shorts - Revit Toposolid to Multipatch.mp4", "60", "Yes"],
+				["City Engine", "content/vids/CityEngine_1_StreetBlocksParcels Design.mp4", "180","Yes"],
+				["City Engine - Design Advancement", "content/vids/CityEngine_5_DesignAdvancement.mp4", "120","Yes"],
+				["ArcGIS Image for ArcGIS Online", "content/vids/AGOLimage.mp4", "144", "Yes"],
+				["Imagery across ArcGIS", "content/vids/overview.mp4", "112", "Yes"],
+				["ArcGIS Enterprise for Kubernetes", "content/vids/kubernetes.mp4", "45", "No"],
+				["Reality Capture with ArcGIS", "content/vids/realitycapture.mp4", "60", "Yes"],
+				["RieglUSA Headquarters Lidar Capture with Oriented Imagery", "content/vids/lidar1.mp4", "38", "Yes"],
+				["St. Louis Lidar Reality Capture", "content/vids/lidar1.mp4", "38", "Yes"],
+				["ArcGIS Indoors", "content/vids/ArcGIS_Indoors_Booking_Demo.mp4", "102", "Yes"],
+				["ArcGIS Field Maps", "content/vids/Field_Maps_IMGIS21.mp4", "145", "No"],
+				["ArcGIS Platform: JavaScript API", "content/vids/javascript2.mp4", "40", "No"],
+				["ArcGIS Platform: Runtime APIs", "content/vids/runtime2.mp4", "25", "No"],
+				["ArcGIS Platform: Wayback Imagery App", "content/vids/wayback.mp4", "40", "Yes"],
+				["ArcGIS Earth Overview", "content/vids/earth.mp4", "105", "Yes"],
+				["Landsat Explorer Demo", "content/vids/landsat_exp.mp4", "66", "Yes"],
+				["GeoAI with ArcGIS", "content/vids/geoai.mp4", "100", "Yes"],
+				["ArcGIS Excalibur Overview", "content/vids/excalibur.mp4", "120", "Yes"],
+				["Raster Analytics in ArcGIS Pro", "content/vids/raster_analytics.mp4", "60", "Yes"],
+				["ArcGIS Pro Shorts - Work with CAD Hatches", "content/vids/ArcGIS Pro Shorts - Work with CAD Hatches.mp4", "60", "Yes"],
+				["ArcGIS Maps SDK for Game Engines", "content/vids/game_engines.mp4", "62", "Yes"],
+				["Advanced Analysis with ArcGIS", "content/vids/samples.mp4", "40", "No"],
+				["ArcGIS Pro Intelligence", "content/vids/geoacuity.mp4", "45", "No"],
+				["ArcGIS Insights", "content/vids/insights.mp4", "90", "No"],
+				["ArcGIS Pro: Voxels and Data Engineering", "content/vids/arcgispro.mp4", "60", "Yes"],
+				["ArcGIS Notebooks", "content/vids/notebooks.mp4", "45", "No"],
+				["ArcGIS Pro: Time Series Forecasting", "content/vids/timeforecasting.mp4", "42", "No"],
+				["ArcGIS Knowledge", "content/vids/knowledge.mp4", "120", "Yes"],
+				["ArcGIS Dashboards", "content/vids/dashboards.mp4", "80", "Yes"],
+				["ArcGIS StoryMaps", "content/vids/storymaps.mp4", "75", "No"],
+				["ArcGIS Experience Builder", "content/vids/experiencebuilder.mp4", "60", "No"],
+				["ArcGIS Sites and Hub", "content/vids/hub_sites.mp4", "70", "No"],
+				["ArcGIS for Microsoft 365", "content/vids/microsoft.mp4", "24", "No"],
+				["Esri Partner: AWS", "content/vids/aws.mp4", "50", "No"],
+				["Esri Partner: Hawkeye360", "content/vids/hawkeye360.mp4", "30", "No"],
+				["Esri Partner: Quiet Professionals", "content/vids/qp.mp4", "39", "No"]
+			]
+		},
+		{
+			"section": "demo links",
+			"data": [
+			["<a href='#construction_anchor' style='color:white'>Construction Management</a><br><br><a href='#permit_anchor' style='color:white'>Planning & Permitting</a><br><br><a href='#reality_anchor' style='color:white'>Reality Capture</a><br><br><a href='#new_features' style='color:white'>New 3D Features</a><br><br><a href='#arcgisproshorts' style='color:white'>ArcGIS Pro Shorts</a>", "", "", "Yes"],
+			["<a style='color:lightblue'><br>DESIGN & ENGINEERING<br></a><br><br>ArcGIS GeoBIM<br> Bridge Dashboard", "content/vids/Walk_Bridge_Sensors_GeoBIM.mp4", "content/images/geobim_dash1.png","Yes"],
+				["ArcGIS GeoBIM<br>Highlands Ranch", "content/vids/Highlands_Ranch_Light_Rail_GeoBIM.mp4", "content/images/geobim_dash.png", "Yes"],
+				["ArcGIS GeoBIM<br>Field Maps Integration", "content/vids/GeoBIM_FieldMaps.mp4", "content/images/GeoBIM_FieldMaps.png", "Yes"],
+				["GIS & BIM Integration from Portcoast", "content/vids/Portcoast_BIMGIS.mp4", "content/images/Portcoast01.png", "Yes"],
+				["BIM Integration<br>Asset Management", "content/vids/BIM_WWTP_LandTech_Consultants.mp4", "content/images/wwtp.png", "Yes"],
+				["ArcGIS GeoBIM<br>Demo Video", "content/vids/ArcGISGeoBIM_December2022.mp4", "content/images/Rotterdam2022.png","Yes"],
+				["Autodesk Civil 3D<br>Surfaces in ArcGIS Pro", "content/vids/Civil3D_Surfaces_Pro_3_2.mp4", "content/images/Civil3D_Surfaces_Pro_3_2.png","Yes"],
+				
+
+				["BIM Integration<br>San Diego", "content/vids/Aperture_Del_Mar_McCarthy.mp4", "content/images/bim1.png", "Yes"],
+				["ArcGIS<br>Utility Network", "content/vids/UtilityNetworkUC2022.mp4", "content/images/UtilityNetwork.jpg", "No"],
+				["Site Scan and BIM<br>Badouzi Port", "content/vids/Badouzi_Port_Taiwan.mp4", "content/images/ss_bim1.jpg", "Yes"],
+				["ArcGIS Indoors", "content/vids/ArcGISindoors_demo_2210.mp4", "content/images/arcgis-indoors-banner.png", "Yes"],
+				["ArcGIS Urban in VR", "content/vids/ArcGIS_Urban_in_XR_Experience_Demo_2022.mp4", "content/images/ArcGISUrban1.jpg", "Yes"],
+				["Viewshed Corridors", "content/vids/Texas_Capitol_Viewshed_Corridors.mp4", "content/images/viz_corridor.jpg", "Yes"],
+				["ArcGIS Velocity NYC Bus Monitor", "content/vids/Velocity_Bus_Monitor.mp4", "content/images/BusMonitor.jpg", "Yes"],
+				["ArcGIS Maps SDK for Unreal", "content/vids/GameEngine_Wildfire_UC2020.mp4", "content/images/Wildfire.jpg", "No"],
+				
+			
+			["<a id='construction_anchor' style='color:lightblue'><br>CONSTRUCTION MANAGEMENT<br></a><br><br>Smart Site Management<br>", "content/vids/SSMS_EsriHKDashboard.mp4", "content/images/HKSmartSiteMgmt.png","Yes"],
+				["Site Scan Flight App", "content/vids/SiteScanFlightAppDemoVideo.mp4", "content/images/SiteScanFlight.png", "Yes"],
+				["Site Scan Manager", "content/vids/SiteScanManagerDemoVideo.mp4", "content/images/SiteScanManager.jpg", "Yes"],
+				["Construction Site <br> Mapping System", "content/vids/PCL_Construction_Site_Mapping_System.mp4", "content/images/PCL_01.png", "Yes"],
+				["Construction Site Safety <br> on Mobile", "content/vids/Construction_Site_Safety_Mobile_Ops.mp4", "content/images/PCL_02.png", "Yes"],
+				["Digital Deliverables", "content/vids/StoryMapConstructionBuildingE_SPS.mp4", "content/images/PDS_SPS.png", "Yes"],
+				["Field Operations", "content/vids/ArcGIS_FieldOps.mp4", "content/images/FieldOps.jpg", "Yes"],
+				["ArcGIS Field Maps", "content/vids/Field_Maps_IMGIS21.mp4", "content/images/FieldMapsIMGIS.JPG", "Yes"],
+				["Oracle P6 Project Schedule Integration", "content/vids/P6_Oracle_Integrate_Project_Schedules.mp4", "content/images/OracleP6Dashboard2022.png", "Yes"],
+				["AEC Project Delivery Subscription", "content/vids/PDS_1minute.mp4", "content/images/PDS_thumbnail.png", "Yes"],
+				["Using ML for Progress Tracking", "content/vids/Solar_ML.mp4", "content/images/Solar_ML.png", "Yes"],
+				
+				
+				
+				["<a id='permit_anchor' style='color:lightblue'><br>PLANNING & PERMITTING<br></a><br><br>ROW Permitting Solution", "https://storymaps.arcgis.com/stories/616e9a9faf2f41989ca6f5ac147b9fe1", "content/images/ROW.jpg", "Yes"],
+				["ArcGIS Urban<br>Design", "content/vids/Urban_Planning_Video1.mp4", "content/images/ArcGISUrban2.jpg","Yes"],
+				["ArcGIS Urban<br>Scenario Comparison", "content/vids/Urban_Planning_Video2.mp4", "content/images/ArcGISUrban3.jpg","Yes"],
+				["Master Development Plans<br>", "https://storymaps.arcgis.com/collections/3526a29ba5074014b8ee13fa69be62bc", "content/images/EnvironmentStorymap.png","Yes"],
+				["Environmental<br>Impact Statements", "https://storymaps.arcgis.com/collections/8c90f3a5e0704f8687213b669efa6fb0", "content/images/SeattleEIS.png", "Yes"],
+				["City Engine<br>", "content/vids/CityEngine_1_StreetBlocksParcels Design.mp4", "content/images/CityEngine1.jpg","Yes"],
+				["City Engine<br>Design Advancement", "content/vids/CityEngine_5_DesignAdvancement.mp4", "content/images/CityEngine5.jpg","Yes"],
+				["FedRAMP StoryMaps", "https://storymaps.arcgis.com/collections/aed172814f6945168034a5bf70b8b337", "content/images/FedRAMPStorymaps.png", "Yes"],
+
+
+				["<a id='reality_anchor' style='color:lightblue'><br>REALITY CAPTURE<br></a><br><br>ArcGIS Reality Munich<br>Web Scene", "https://www.arcgis.com/apps/instant/3dviewer/index.html?appid=2d25155c46dc4361887118885b747894", "content/images/munich.jpg", "Yes"],
+				["ArcGIS Reality Utrecht<br>Digital Twin", "https://www.arcgis.com/home/webscene/viewer.html?webscene=5a922cb6a0db458389c61dc3e2ab1234", "content/images/esri-ned.jpg", "Yes"],
+				["Oriented Imagery<br>Applications", "https://www.arcgis.com/apps/MinimalGallery/index.html?appid=b4fadaa5ca584f17aeebf51b0e271cd0", "content/images/oic.png", "Yes"],
+				
+				["Downtown Denver<br>Aerometrex Demo", "content/vids/Downtown_Denver_GeoXC.mp4", "content/images/rc.png", "Yes"],
+				["Site Scan for ArcGIS", "content/vids/SiteScanManagerDemoVideo.mp4", "content/images/SiteScanManager.jpg", "Yes"],									
+				["SURE for ArcGIS<br>Experience", "https://links.esri.com/SURE21may", "content/images/sure_exp.png", "Yes"],
+				
+				["Precision Ag<br>with Drone2Map", "content/vids/d2m.mp4", "content/images/d2m.jpg", "No"],					
+				["Sonoma County Lidar","https://3dcities.maps.arcgis.com/apps/webappviewer3d/index.html?id=42949bd58795441aac176f0730d2346c", "content/images/sonoma-lidar.jpg", "Yes"],
+				["Riegl Lidar <br>w/ Oriented Imagery","content/vids/riegl_inspect.mp4", "content/images/oic_riegl.png", "Yes"],
+				["Full Motion Video", "content/vids/fmv.mp4", "content/images/fmv.png", "Yes"],
+
+				["<a id='new_features' style='color:lightblue'><br>New 3D Features<br></a><br><br>Powerline Classification<br>", "content/vids/3DAnalyst_PowerlinesClassification.mp4", "content/images/3DPowerlines.jpg", "Yes"],
+				["Experience Builder", "content/vids/ExperienceBuilder_SynchedScenarios.mp4",  "content/images/ExBSync.jpg", "Yes"],
+				["ArcGIS Earth", "content/vids/AGOL_3DBasemaps_Upload3DModel.mp4",  "content/images/UploadDesign.jpg", "Yes"],
+				["360 VR", "content/vids/AGOL_3DRenderingUpdate_360VR.mp4",  "content/images/360VR.jpg", "Yes"],
+				["----------------<br>ArcGIS Image<br>----------------<br><br>Cameron Peak<br>Fire Demo Video", "content/vids/image_analysis.mp4", "content/images/image.jpg", "Yes"],
+				["Landsat Explorer", "https://livingatlas2.arcgis.com/landsatexplorer/", "content/images/landsat.jpg", "No"],
+				["Sentinel2 Explorer", "https://livingatlas2.arcgis.com/sentinel2explorer/", "content/images/sentinel.jpg", "No"],
+				["Imagery Applications", "https://www.arcgis.com/apps/MinimalGallery/index.html?appid=cff0dd2940984c209d29d6ed3c41b99a", "content/images/sentinel.jpg", "Yes"],
+				["Image Analysis:<br>Change Detection", "https://ivt.maps.arcgis.com/apps/webappviewer/index.html?id=7efd2af2efad463da529a0d89442a2e8", "content/images/change.jpg", "No"],
+				["Terrain Analysis", "https://apl.esri.com/jg/TerrainVisualizations/index.html", "content/images/terrain.png", "Yes"],
+				["Raster Analytics", "content/vids/raster_analytics.mp4", "content/images/ima.jpg", "No"],
+				["ArcGIS Image Server", "https://wdcintelportal.esri.com/portal/home/webmap/viewer.html?useExisting=1&layers=72dd49cc28614a008b73b00ae4d5584e", "content/images/iserv.png", "No"],
+				["ArcGIS Excalibur:<br>Imagery Portal", "https://remotesensing.imagery.esri.com/portal/apps/excalibur/app.html", "content/images/excalibur.png", "Yes"],
+
+
+				["--------------<br>GeoAI<br>--------------<br><br>Deep Learning StoryMap", "https://storymaps.arcgis.com/stories/0860894aa2b5442ca27b85c8f7915ce9", "content/images/deep.png", "Yes"],
+				["Building Extraction<br>Demo Video", "content/vids/buildings.mp4", "content/images/buildings.png", "Yes"],
+				["Object Tracking<br>Demo Video", "content/vids/obj_detect.mp4", "content/images/ships.png", "Yes"],
+				["Hexagon GeoAI Dashboard", "https://www.arcgis.com/apps/dashboards/5768231cbe8f4036b18f430aa61be84c", "content/images/loadgo.jpg", "Yes"],
+				["Woolsey Fire GeoAI IVT Dashboard", "https://ivt.maps.arcgis.com/apps/dashboards/60b92b13462a4b41b246008e5e7ba6b4", "content/images/woolseyfiredash.jpg", "Yes"],
+				["Mapping with AI:<br>10-meter Land Cover", "https://esri-imagery-apps.s3.us-west-1.amazonaws.com/image/explore-landcover-2020.html", "content/images/landcover.png", "Yes"],
+				["--------------", "", "", "Yes"],
+
+				["<a id='arcgisproshorts' style='color:lightblue'><br>ArcGIS Pro Shorts<br></a><br><br>BIM Cloud Connection<br>", "content/vids/ArcGIS Pro Shorts - BIM Cloud Connection.mp4", "content/images/BIM Cloud Connection.png", "Yes"],
+				["BIM Reinforcing Elements<br>Demo Video", "content/vids/ArcGIS Pro Shorts - BIM Reinforcing Elements.mp4", "content/images/BIM Reinforcing Elements.png", "Yes"],
+				["Civil 3D Corridor to Multipatch<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Civil 3D Corridor to Multipatch.mp4", "content/images/Civil 3D Corridor to Multipatch.png", "Yes"],
+				["Civil 3D Surface to Raster<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Civil 3D Surface to Raster.mp4", "content/images/Civil 3D Surface to Raster.png", "Yes"],
+				["Coordinate Systems - CAD<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Coordinate Systems - CAD.mp4", "content/images/Coordinate Systems - CAD.png", "Yes"],
+				["Direct Publishing of CAD<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Direct Publishing of CAD.mp4", "content/images/Direct Publishing of CAD.png", "Yes"],
+				["Directly Create Scene Layers from 3D CAD<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Directly Create Scene Layers from 3D CAD.mp4", "content/images/Directly Create Scene Layers from 3D CAD.png", "Yes"],
+				["Export to CAD<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Export to CAD.mp4", "content/images/Export to CAD.png", "Yes"],
+				["IFC to Multipatch<br>Demo Video", "content/vids/ArcGIS Pro Shorts - IFC to Multipatch.mp4", "content/images/IFC to Multipatch.png", "Yes"],
+				["Location Information from Revit<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Location Information from Revit.mp4", "content/images/Location Information from Revit.png", "Yes"],
+				["Prepare CAD Floorplans for Indoor GIS<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Prepare CAD Floorplans for Indoor GIS.mp4", "content/images/Prepare CAD Floorplans for Indoor GIS.png", "Yes"],
+				["Revit Toposolid to Multipatch<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Revit Toposolid to Multipatch.mp4", "content/images/Revit Toposolid to Multipatch.png", "Yes"],
+				["Work with CAD Hatches<br>Demo Video", "content/vids/ArcGIS Pro Shorts - Work with CAD Hatches.mp4", "content/images/Work with CAD Hatches.png", "Yes"],
+
+
+
+
+
+				["Wayback Imagery", "https://livingatlas.arcgis.com/wayback/?ext=-90.33469,38.56426,-90.06518,38.69420&active=51423", "content/images/wayback.png", "No"],
+				["ArcGIS Earth for Desktop", "https://www.esri.com/en-us/arcgis/products/arcgis-earth/overview", "content/images/earth.png", "No"],
+				["ArcGIS Maps SDK for Unity and Unreal Engine", "https://developers.arcgis.com/unity-sdk/", "content/images/unreal.jpg", "No"],				
+				["ArcGIS Velocity", "content/vids/velocity_vid.mp4", "content/images/velocity.png", "No"],
+				["ArcGIS GeoEvent Server", "https://defense.esri.com/portal/apps/webappviewer/index.html?id=a3f90fe142aa49a6817e6ef2356b56ed", "content/images/geoev.png", "No"],
+				["ArcGIS Platform:<br>Satellite Monitoring", "https://apl.esri.com/rc/sat2/index.html", "content/images/satellite.png", "No"],
+				["ArcGIS Platform:<br>Asset Tracking", "https://apl.esri.com/jg/AssetTracking/index.html", "content/images/tracking.png", "No"],
+				["ArcGIS Enterprise on Kubernetes", "https://enterprise-k8s.esrigc.com/aks/home/", "content/images/kubernetes.jpg", "No"],
+				["ArcGIS Platform:<br>JS Playground", "https://webexamples.s3.amazonaws.com/ArcGIS_JS_API.html", "content/images/playground.png", "No"],															["ArcGIS Platform:<br>Runtime APIs", "https://developers.arcgis.com/android/", "content/images/runtime.png", "No"],
+				["GeoAI:<br>JAIC AI/ML Prototype", "https://learn.arcgis.com/en/paths/try-machine-learning-with-arcgis/", "content/images/jaic.jpg", "No"],
+				["ArcGIS Insights:<br>Conflict Events", "https://wdcintelportal.esri.com/portal/apps/insights/index.html#/view/de7cbcd4fbdf46f4a9cb00086f38734b", "content/images/gtd.png", "No"],
+				["ArcGIS Insights:<br>Human Trafficking", "https://wdcintelportal.esri.com/portal/apps/insights/index.html#/view/6f01c399bd3f4388b8beb6269d901d3d", "content/images/humantr.png", "No"],
+				["ArcGIS Insights:<br>Conflict Analysis", "https://wdcintelportal.esri.com/portal/apps/insights/index.html#/view/de7cbcd4fbdf46f4a9cb00086f38734b", "content/images/conflict.png", "No"],
+				["ArcGIS Insights:<br>Gallery", "https://doc.arcgis.com/en/insights/gallery/", "content/images/in_gal.png", "No"],
+				["ArcGIS Knowledge", "vids/knowledge2.mp4", "content/images/know.png", "No"],
+				["ArcGIS Pro:<br>Data Engineering", "https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/data-engineering/what-is-data-engineering.htm", "content/images/dataeng.png", "No"],
+				["ArcGIS Pro:<br>Voxel Analysis", "https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/what-is-a-voxel-layer-.htm", "content/images/voxel.jpg", "No"],
+				["ArcGIS Pro:<br>Time Series Forecasting", "https://pro.arcgis.com/en/pro-app/latest/tool-reference/space-time-pattern-mining/an-overview-of-the-time-series-forecasting-toolset.htm", "content/images/times.png", "No"],
+				["ArcGIS Pro:<br>Locate XT", "https://www.esri.com/en-us/arcgis/products/locatext/overview", "content/images/xt.png", "No"],
+				["ArcGIS Notebooks", "https://www.esri.com/en-us/arcgis/products/arcgis-notebooks/overview", "content/images/notebook3.png", "No"],
+				["ArcGIS Pro Intelligence", "https://www.esri.com/en-us/arcgis/products/arcgis-pro-intelligence/overview", "content/images/intel.png", "No"],
+				["GeoAnalytics Server", "https://defense.esri.com/portal/apps/webappviewer/index.html?id=a3f90fe142aa49a6817e6ef2356b56ed", "content/images/geoa.jpg", "No"],
+				["ArcGIS Dashboards:<br>Satellite Viewer", "https://esrifederal.maps.arcgis.com/apps/opsdashboard/index.html#/d76fbe96105a47799ed321a309ae8d4f", "content/images/dash2.png", "No"],
+				["ArcGIS Dashboards:<br>Nuclear News Articles", "https://wdcintelportal.esri.com/portal/apps/opsdashboard/index.html#/23a016deb3c0470bb87d75e5d6600307", "content/images/dash3.png", "No"],
+				["ArcGIS Dashboards:<br>Maritime Situational Awareness", "https://esrifederal.maps.arcgis.com/apps/dashboards/d3648d9ddc0d48b198930dd3a6a669c0", "content/images/dash1.png", "No"],
+				["ArcGIS Dashboards:<br>Weather Effects on Operations", "https://www.arcgis.com/apps/opsdashboard/index.html#/26803e2fe2c74d9dbf78ddbc15426276", "content/images/dash4.png", "No"],
+				["ArcGIS Dashboards:<br>Situation Awareness", "https://wdcintelportal.esri.com/portal/apps/opsdashboard/index.html#/3096e6d62f6e437ab0fbb3f6dbdabe05", "content/images/dash5.png", "No"],
+				["ArcGIS Dashboards:<br>Facility Monitoring", "https://defense.esri.com/portal/apps/opsdashboard/index.html#/d1d758cb18e6476781f2e93990e5cafa", "content/images/dash6.png", "No"],
+				["ArcGIS for Microsoft 365:<br>SharePoint", "https://esriis.sharepoint.com/teams/MattsTestSite/SitePages/COCOM-SharePoint-COP-Demo.aspx", "content/images/sharepoint.png", "No"],
+				["ArcGIS for Microsoft 365:<br>Teams", "https://evergeotechcom.ipage.com/test/esri_teams.html?id=19:47c567e3580a400cb3d1a625391197b4@thread.skype", "content/images/teams.png", "No"],
+				["ArcGIS for Microsoft 365:<br>Office", "https://www.esri.com/en-us/arcgis/products/arcgis-for-office/overview", "content/images/office.png", "No"],
+				["ArcGIS StoryMaps:<br>Chemical Weapons", "https://wdcdefense.esri.com/portal/apps/MapSeries/index.html?appid=c0a226e258e94d5e8b65b51ca3fdde1b", "content/images/sm1.png", "No"],
+				["ArcGIS StoryMaps:<br>Yaogan-30 Overview", "https://esrifederal.maps.arcgis.com/apps/MapSeries/index.html?appid=9ffbd2f79c8f4a80894755af7957cdcd", "content/images/sm2.png", "No"],
+				["ArcGIS StoryMaps:<br>Integrated Intelligence", "https://wdcintelportal.esri.com/portal/apps/MapJournal/index.html?appid=e19ca7606f9b45e7853e480dd44ac206", "content/images/sm3.png", "No"],
+				["ArcGIS StoryMaps:<br>Black Owned Geospatial Companies", "https://storymaps.arcgis.com/stories/a71bd18d0d154167b1d6462a9b81a27d", "content/images/bogc.png", "No"],
+				["ArcGIS Experience Builder:<br>Djibouti", "https://wdcintelportal.esri.com/portal/apps/experiencebuilder/experience/?id=48e277db9629400e8a232ed4a92b18f4", "content/images/ex1.png", "No"],
+				["ArcGIS Experience Builder:<br>Wildfire Response", "https://experience.arcgis.com/experience/6c42bf70be214725b8dd0de8d407eca9/page/page_0/", "content/images/ex2.png", "No"],
+				["ArcGIS Experience Builder:<br>Chile Covid-19", "https://experience.arcgis.com/experience/b14e0285e8874588a44812caf88cc716/", "content/images/ex3.png", "No"],
+				["ArcGIS Experience Builder:<br>Beirut Explosion Recovery", "https://experience.arcgis.com/experience/28466a6d361545358ec64fa3e932ee86/page/page_0/", "content/images/ex4.png", "No"],
+				["ArcGIS Sites:<br>DoS Boundaries", "https://wdcintelportal.esri.com/portal/apps/sites/#/base", "content/images/sites1.png", "No"],
+				["ArcGIS Sites:<br>PACOM Engagement", "https://wdcintelportal.esri.com/portal/apps/sites/#/pacom", "content/images/sites2.png", "No"],
+				["Esri Partner:<br>Janes", "https://www.arcgis.com/apps/dashboards/68c84b230785467aab599334661eb8bd", "content/images/know2.png", "No"],
+				["Esri Partner:<br>NetOwl", "https://www.arcgis.com/apps/dashboards/d7c55d02422345d2ac515ea77ec1af30", "content/images/netowl.png", "No"],
+				["Esri Partner:<br>Vision III Imaging", "vids/v3.mp4", "images/v3.png", "No"],
+				["Esri Partner:<br>Amazon AWS SageMaker", "https://wdcintelportal.esri.com/portal/apps/MapSeries/index.html?appid=e3d91343853e4ee29b68dfc91e6966f4", "content/images/aws.png", "No"],
+				["Esri Partner:<br>MAXAR", "https://wdcintel.maps.arcgis.com/home/webscene/viewer.html?layers=f6a035cf5446476c9ca0c02b1d428559", "content/images/vricon.png", "No"],
+				["Esri Partner:<br>Planet", "https://wdcintelportal.esri.com/portal/apps/excalibur/app.html#/canvas/service?serviceUrl=https%3A%2F%2Fwdcintelgis.esri.com%2Farcgis%2Frest%2Fservices%2F2019_Image_Djibouti%2FImageServer&type=arcgis", "content/images/planet.png", "No"],
+				["Esri Partner:<br>GeoAcuity", "https://www.youtube.com/watch?v=Uu653y_Otck", "content/images/geoacuity.png", "No"],
+				["Esri Partner:<br>GeoSpark", "https://storymaps.arcgis.com/stories/2ef7af674e9d43fcb7b7ec000b3eec4f", "content/images/geospark.png", "No"],
+				["Esri Partner:<br>Hawkeye 360", "vids/hawkeye_long.mp4", "content/images/hawkeye360.png", "No"],
+				["Esri Partner:<br>Spire", "https://defense.esri.com/portal/apps/webappviewer/index.html?id=a3f90fe142aa49a6817e6ef2356b56ed", "content/images/spire.png", "No"]
+			]
+		}
+	],
+	"settings": [{"video_size_percentage": 90}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
