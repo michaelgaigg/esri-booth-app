@@ -14,14 +14,14 @@
   let playValue = 1;
   let demoLinks = "";
   let linkText = "";
-  let bgImage = "url(/src/assets/uc2025.jpg)";
+  let bgImage = "url(../src/assets/uc2025.jpg)";
 
   // data
   let links = data.links || [];
   let videos = data.videos || [];
   let demos = data.demos || [];
 
-  let videoSource = "./src/assets/content/vids/Walk_Bridge_Sensors_GeoBIM.mp4";
+  let videoSource = "../src/assets/content/vids/Walk_Bridge_Sensors_GeoBIM.mp4";
   let currentTime = 0;
 
   function pause_button() {
@@ -62,7 +62,7 @@
   import settings from "./assets/settings.svg";
 </script>
 
-<div class="flex flex-col h-screen bg-[{bgImage}] gap-4 p-8">
+<div class="flex flex-col h-screen gap-4 p-8" style={`background-image: ${bgImage};`}>
   <!-- Top Row: Two columns -->
   <div class="flex flex-row gap-4 h-9/10">
     <!-- Left column: fixed width, scrollable -->
