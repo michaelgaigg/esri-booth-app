@@ -3,10 +3,13 @@
   setAssetPath("./assets/");
 
   import data from "./assets/content/data.json";
+  import { results } from "./lib/pocketbase";
   import "@esri/calcite-components/components/calcite-card";
   import "@esri/calcite-components/components/calcite-chip";
   import "@esri/calcite-components/components/calcite-action";
   import "@esri/calcite-components/components/calcite-tooltip";
+
+  console.log('results', results);
 
   // variables
   let myTimeout;
