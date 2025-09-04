@@ -21,6 +21,8 @@
   let esriLogo = "../src/assets/esri-logo.png";
 
   let collapsed = false;
+  let filterValue = "";
+  let filterableValues = [];
 
   // data
   let links = data.links || [];
@@ -29,6 +31,12 @@
 
   let selectedDemo = demos[0] || {};
   let currentTime = 0;
+
+  // Run code when data.json is loaded
+  $: if (data) {
+    // find all the filterable values (tags), this is used in the filter
+    filterableValues = Array.from(new Set(demos.map(demo => demo[4]))).sort()
+  }
 
   function pause_button() {
     if (playValue == 1) {
@@ -80,27 +88,24 @@
     <aside class={[collapsed ? "hidden" : "visible", "w-120 overflow-y-auto transition-all duration-300 p-4 glass-container my-8"]} style="scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.25);">
       {#if !collapsed}
       <div class="m-4">
-        <calcite-combobox placeholder="Select a field" on:calciteComboboxFilterChange={(event) => {
-          const selectedValue = event.target.value;
-          console.log("Selected value:", selectedValue);
+        <calcite-combobox placeholder="Select filter tags" on:calciteComboboxFilterChange={(event) => {
+          // after filter is applied, set the filterValue to either a string (for one) or an array (for multiple)
+          filterValue = event.target.value;
         }}>
-          <calcite-combobox-item value="Design & Engineering" heading="Design & Engineering"></calcite-combobox-item>
-          <calcite-combobox-item value="Construction Management" heading="Construction Management"></calcite-combobox-item>
-          <calcite-combobox-item value="Planning & Permitting" heading="Planning & Permitting"></calcite-combobox-item>
-          <calcite-combobox-item value="Reality Capture" heading="Reality Capture"></calcite-combobox-item>
-          <calcite-combobox-item value="3D Features" heading="3D Features"></calcite-combobox-item>
-          <calcite-combobox-item value="ArcGIS Image" heading="ArcGIS Image"></calcite-combobox-item>
-          <calcite-combobox-item value="Geo AI" heading="Geo AI"></calcite-combobox-item>
+          {#each filterableValues as value}
+            <calcite-combobox-item value={value} heading={value}></calcite-combobox-item>
+          {/each}
         </calcite-combobox>
       </div>
       {#each demos as demo, i}
-        {#if demo[3] == "Yes"}
+        {#if (!filterValue || demo[4] === filterValue) && demo[3] == "Yes"}
         <button
         type="button"
         class="m-4 mb-0 p-4 pb-0 bg-transparent border-none text-left glass-container cursor-pointer"
         aria-label={`Play demo video: ${demo[0]}`}
         on:click={() => (selectedDemo = demo)}
         >
+        <calcite-chip class="absolute top-2 right-2">{demo[4]}</calcite-chip>
         <img alt={demo[0]} src={demo[2]} class="rounded" />
         <h3 class="py-2">{demo[0]}</h3>
         </button>
