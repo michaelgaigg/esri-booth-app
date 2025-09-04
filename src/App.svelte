@@ -129,7 +129,7 @@
           </div>
         </div>
         <main class=" overflow-hidden w-full flex">
-          <video src={selectedDemo[1]} bind:currentTime controls class="w-full">
+          <video src={selectedDemo[1]} bind:currentTime controls autoplay class="w-full">
         <track kind="captions" src="" srclang="en" label="English captions" />
           </video>
         </main>
