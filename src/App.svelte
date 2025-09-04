@@ -68,18 +68,18 @@
   // import settings from "./assets/settings.svg";
 </script>
 
-<div class="flex flex-row h-screen" style={`background-image: ${bgImage};`}>
+<div class="flex flex-row h-screen w-screen" style={`background-image: ${bgImage};`}>
 
     <button
-      class="bg-black/50 text-white text-lg p-1"
+      class="text-white text-lg p-1 h-64 self-center glass-container"
       on:click={() => (collapsed = !collapsed)}
       aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
       >
       {collapsed ? "▶" : "◀"}
     </button>
-    <aside class={[collapsed ? "hidden" : "visible", "w-120 h-screen overflow-y-auto bg-black/25 transition-all duration-300 p-4 glass-container"]} style="scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.25);">
+    <aside class={[collapsed ? "hidden" : "visible", "w-120 overflow-y-auto transition-all duration-300 p-4 glass-container my-8"]} style="scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.25);">
       {#if !collapsed}
-      <div class="mb-4">
+      <div class="m-4">
         <calcite-combobox placeholder="Select a field" on:calciteComboboxFilterChange={(event) => {
           const selectedValue = event.target.value;
           console.log("Selected value:", selectedValue);
@@ -97,14 +97,12 @@
         {#if demo[3] == "Yes"}
         <button
         type="button"
-        class="mb-2 p-0 bg-transparent border-none w-full text-left"
+        class="m-4 mb-0 p-4 pb-0 bg-transparent border-none text-left glass-container cursor-pointer"
         aria-label={`Play demo video: ${demo[0]}`}
         on:click={() => (selectedDemo = demo)}
         >
-        <calcite-card>
-        <img slot="thumbnail" alt={demo[0]} src={demo[2]} />
-        <span slot="heading">{demo[0]}</span>
-        </calcite-card>
+        <img alt={demo[0]} src={demo[2]} class="rounded" />
+        <h3 class="py-2">{demo[0]}</h3>
         </button>
         {/if}
       {/each}
@@ -112,8 +110,8 @@
     </aside>
 
 
-    <div class="flex flex-col w-full h-full p-8 gap-8">
-      <header class="flex flex-row items-center justify-between p-4 rounded-lg glass-container">
+    <div class="flex flex-col w-fit my-8">
+      <header class="flex flex-row items-center justify-between p-4 glass-container mx-8">
         <img src={esriLogo} alt="Esri Logo" class="h-10 mr-4" />
         <h1 class="text-2xl font-bold text-white drop-shadow">Autodesk University 2025</h1>
         <div class="flex gap-2">
@@ -121,7 +119,8 @@
           <calcite-button icon-start="information" label="Info" appearance="outline-filled" kind="neutral" aria-label="Info"></calcite-button>
         </div>
       </header>
-      <div class="flex flex-col h-full glass-container p-4 rounded-lg gap-4">
+
+      <div class="flex flex-col glass-container p-4 gap-4 m-8 ">
         <div class="flex flex-row items-center justify-between">
           <h2 class="text-white">{selectedDemo[0]}</h2>
           <div class="flex gap-2">
@@ -129,23 +128,12 @@
         <calcite-button icon-start="information" label="Info" appearance="outline-filled" kind="neutral" aria-label="Info"></calcite-button>
           </div>
         </div>
-        <main class="rounded-lg overflow-hidden w-full flex-1 flex">
-          <video src={selectedDemo[1]} bind:currentTime controls class="w-full h-full">
+        <main class=" overflow-hidden w-full flex">
+          <video src={selectedDemo[1]} bind:currentTime controls class="w-full">
         <track kind="captions" src="" srclang="en" label="English captions" />
           </video>
         </main>
       </div>
-
-      <style>
-        .glass-container {
-          background: rgba(30, 30, 40, 0.35);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          backdrop-filter: blur(12px) saturate(180%);
-          -webkit-backdrop-filter: blur(12px) saturate(180%);
-          border-radius: 16px;
-          border: 1px solid rgba(255, 255, 255, 0.18);
-        }
-      </style>
     </div>
 </div>
 
@@ -155,5 +143,13 @@
 	}
   button:hover {
     background-color: rgba(0, 0, 0, 0.7);
+  }
+  .glass-container {
+    background: rgba(30, 30, 40, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
   }
 </style>
