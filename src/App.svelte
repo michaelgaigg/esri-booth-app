@@ -77,7 +77,7 @@
       >
       {collapsed ? "▶" : "◀"}
     </button>
-    <aside class={[collapsed ? "hidden" : "visible", "w-120 h-screen overflow-y-auto bg-black/25 transition-all duration-300 p-4"]} style="scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.25);">
+    <aside class={[collapsed ? "hidden" : "visible", "w-120 h-screen overflow-y-auto bg-black/25 transition-all duration-300 p-4 glass-container"]} style="scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.25);">
       {#if !collapsed}
       <div class="mb-4">
         <calcite-combobox placeholder="Select a field" on:calciteComboboxFilterChange={(event) => {
@@ -113,7 +113,7 @@
 
 
     <div class="flex flex-col w-full h-full p-8 gap-8">
-      <header class="flex flex-row items-center justify-between p-4 rounded-lg">
+      <header class="flex flex-row items-center justify-between p-4 rounded-lg glass-container">
         <img src={esriLogo} alt="Esri Logo" class="h-10 mr-4" />
         <h1 class="text-2xl font-bold text-white drop-shadow">Autodesk University 2025</h1>
         <div class="flex gap-2">
@@ -121,22 +121,31 @@
           <calcite-button icon-start="information" label="Info" appearance="outline-filled" kind="neutral" aria-label="Info"></calcite-button>
         </div>
       </header>
-      <div class="flex flex-col h-full bg-black/50 p-4 rounded-lg gap-4">
+      <div class="flex flex-col h-full glass-container p-4 rounded-lg gap-4">
         <div class="flex flex-row items-center justify-between">
           <h2 class="text-white">{selectedDemo[0]}</h2>
           <div class="flex gap-2">
-          <calcite-button icon-start="sliders" label="Settings" appearance="outline-filled" kind="neutral" aria-label="Settings"></calcite-button>
-          <calcite-button icon-start="information" label="Info" appearance="outline-filled" kind="neutral" aria-label="Info"></calcite-button>
-          <calcite-button icon-start="information" label="Info" appearance="outline-filled" kind="neutral" aria-label="Info"></calcite-button>
-          <calcite-button icon-start="information" label="Info" appearance="outline-filled" kind="neutral" aria-label="Info"></calcite-button>
-        </div>
+        <calcite-button icon-start="sliders" label="Settings" appearance="outline-filled" kind="neutral" aria-label="Settings"></calcite-button>
+        <calcite-button icon-start="information" label="Info" appearance="outline-filled" kind="neutral" aria-label="Info"></calcite-button>
+          </div>
         </div>
         <main class="rounded-lg overflow-hidden w-full flex-1 flex">
           <video src={selectedDemo[1]} bind:currentTime controls class="w-full h-full">
-            <track kind="captions" src="" srclang="en" label="English captions" />
+        <track kind="captions" src="" srclang="en" label="English captions" />
           </video>
         </main>
       </div>
+
+      <style>
+        .glass-container {
+          background: rgba(30, 30, 40, 0.35);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          backdrop-filter: blur(12px) saturate(180%);
+          -webkit-backdrop-filter: blur(12px) saturate(180%);
+          border-radius: 16px;
+          border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+      </style>
     </div>
 </div>
 
