@@ -1,0 +1,52 @@
+{
+"industries": [
+    {
+        "id": 1,
+        "title": "AEC",
+        "archived": false,
+        "icon": ""
+    },
+    {
+        "id": 2,
+        "title": "Business",
+        "archived": false,
+        "icon": ""
+    },
+    {
+        "id": 3,
+        "title": "Conservation",
+        "archived": false,
+        "icon": ""
+    },
+    {
+        "id": 4,
+        "title": "Education",
+        "archived": false,
+        "icon": ""
+    },
+    {
+        "id": 5,
+        "title": "Energy Utilities",
+        "archived": false,
+        "icon": ""
+    },
+    {
+        "id": 6,
+        "title": "Facilities",
+        "archived": false,
+        "icon": ""
+    },
+    {
+        "id": 7,
+        "title": "Health & Human Services",
+        "archived": false,
+        "icon": ""
+    },
+    {
+        "id": 8,
+        "title": "National Government",
+        "archived": false,
+        "icon": ""
+    }
+]
+}
