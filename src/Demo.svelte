@@ -1,7 +1,4 @@
 <script>
-  import { setAssetPath } from "@esri/calcite-components";
-  setAssetPath("./assets/");
-
   import { link } from "svelte-routing";
 
   import data from "./assets/content/data.json";
