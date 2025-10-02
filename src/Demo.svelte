@@ -7,6 +7,7 @@
   import "@esri/calcite-components/components/calcite-button";
   import "@esri/calcite-components/components/calcite-card";
   import "@esri/calcite-components/components/calcite-chip";
+  import "@esri/calcite-components/components/calcite-input";
   import "@esri/calcite-components/components/calcite-action";
   import "@esri/calcite-components/components/calcite-tooltip";
 
@@ -239,7 +240,7 @@
 
   button {
     position: relative;
-    border-radius: 16px;
+    border-radius: 0;
   }
 
   button:has(img) {
@@ -264,12 +265,12 @@
 
   calcite-button {
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 0;
   }
 
   calcite-combobox {
     overflow: hidden;
-    border-radius: 24px;
+    border-radius: 0;
   }
 
   :global(body:has(calcite-combobox-item[selected]) calcite-combobox),
