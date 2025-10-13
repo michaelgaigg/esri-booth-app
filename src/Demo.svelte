@@ -17,7 +17,8 @@
   let playValue = 1;
   let demoLinks = "";
   let linkText = "";
-  let bgImage = "url(../src/assets/uc2025.jpg)";
+  // let bgImage = "url(../src/assets/uc2025.jpg)";
+  let bgImage = "url(../src/assets/bg_default.jpg)";
   let esriLogo = "../src/assets/esri-logo.png";
   let videoPlayer = "";
   let demoButton = "";
